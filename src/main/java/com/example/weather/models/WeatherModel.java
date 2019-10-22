@@ -9,6 +9,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 @Data
 public class WeatherModel {
 
+
     @JsonProperty("main")
     private TempModel tempModel;
 
